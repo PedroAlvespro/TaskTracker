@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pBkODo8sYvU=",
+  "dgSpecHash": "wFqxiwHxX9k=",
   "success": true,
-  "projectFilePath": "C:\\users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

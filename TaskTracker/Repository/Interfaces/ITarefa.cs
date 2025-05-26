@@ -8,5 +8,6 @@ namespace TaskTracker.Repository.Interfaces
         public Task Update(Tarefa tarefa);
         public Task Delete(Tarefa tarefa);
         public Task<List<Tarefa>> GetAll();
+        public Task<Tarefa> GetById(int id);
     }
 }

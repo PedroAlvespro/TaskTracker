@@ -31,6 +31,12 @@ namespace TaskTracker.Repository
             return await _context.Tarefa.ToListAsync();
         }
 
+        public async Task<Tarefa> GetById(int id)
+        {
+            var identificator = await _context.Tarefa.FindAsync(id);
+            return identificator;
+        }
+
         public async Task Update(Tarefa tarefa)
         {
             _context.Tarefa.Update(tarefa);

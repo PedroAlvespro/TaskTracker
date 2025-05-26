@@ -27,19 +27,39 @@ namespace TaskTracker.Services
             return novaTarefa;
         }
 
-        public async Task Update(Tarefa tarefa)
+        public async Task<TarefaResponseDTO> Update(int id, TarefaDTO dto)
         {
+            var tarefa = await _tarefaRepository.GetById(id);
+            if (tarefa == null) throw new Exception("Tarefa não encontrada");
+
+            tarefa.Nome = dto.Nome;
+            tarefa.Descricao = dto.Descricao;
+            tarefa.DataConclusao = DateTime.Now;
+
             await _tarefaRepository.Update(tarefa);
+
+            return new TarefaResponseDTO
+            {
+                Id = tarefa.Id,
+                Nome = tarefa.Nome,
+                Descricao = tarefa.Descricao,
+                DataConclusao = tarefa.DataConclusao
+            };
         }
 
-        public async Task Delete(Tarefa tarefa)
+        public async Task Delete(int id)
         {
-            await _tarefaRepository.Delete(tarefa);
-        }
+            var remove = await _tarefaRepository.GetById(id);
 
+            if (remove == null)
+                throw new Exception("Tarefa não encontrada");
+
+            await _tarefaRepository.Delete(remove);
+        }
         public async Task<List<Tarefa>> GetAll()
         {
-            return await _tarefaRepository.GetAll();
+            var tarefas = await _tarefaRepository.GetAll() ?? new List<Tarefa>();
+            return tarefas;
         }
     }
 }

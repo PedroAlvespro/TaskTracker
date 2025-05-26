@@ -22,10 +22,8 @@ namespace TaskTracker.Controllers
         [HttpPost]
         public async Task<IActionResult> CriarTarefa(TarefaDTO dto)
         {
-            if (string.IsNullOrWhiteSpace(dto.Nome) || string.IsNullOrWhiteSpace(dto.Descricao)) return BadRequest("Nome e descrição são obrigatórios.");
-
             var novaTarefa = await _service.Create(dto); 
-            return Ok(novaTarefa);
+            return Ok(novaTarefa); 
         }
 
     }

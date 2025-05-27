@@ -167,3 +167,8 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\refint\Task
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.pdb
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.genruntimeconfig.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\ref\TaskTracker.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\bin\Debug\net8.0\MailKit.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\bin\Debug\net8.0\MimeKit.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

@@ -18,13 +18,41 @@ namespace TaskTracker.Controllers
             _service = service;
             _context = context;
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> CriarTarefa(TarefaDTO dto)
         {
-            var novaTarefa = await _service.Create(dto); 
-            return Ok(novaTarefa); 
+
+            try
+            {
+                var novaTarefa = await _service.Create(dto);
+                return Ok(novaTarefa);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
         }
 
+        [HttpGet]
+        public async Task<IActionResult> BuscarTarefa()
+        {
+            try
+            {
+                var TarefaBuscada = await _service.GetAll();
+                return Ok(TarefaBuscada);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> AlterarTarefa(int id, TarefaDTO dto)
+        {
+
+        }
     }
 }

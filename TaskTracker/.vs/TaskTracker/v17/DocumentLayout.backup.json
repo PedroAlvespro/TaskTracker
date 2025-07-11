@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\notifications\\interfaces\\iemailserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:notifications\\interfaces\\iemailserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\notifications\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:notifications\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\notifications\\tiponotificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:notifications\\tiponotificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +18,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "Controllers\\TarefaController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T19:09:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Services\\TarefaService.cs",
+              "RelativeDocumentMoniker": "Services\\TarefaService.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Services\\TarefaService.cs",
+              "RelativeToolTip": "Services\\TarefaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwB0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T19:09:22.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -35,62 +61,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IEmailServiceInterface.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\Interfaces\\IEmailServiceInterface.cs",
-              "RelativeDocumentMoniker": "Notifications\\Interfaces\\IEmailServiceInterface.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\Interfaces\\IEmailServiceInterface.cs*",
-              "RelativeToolTip": "Notifications\\Interfaces\\IEmailServiceInterface.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:47:37.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Notificacao.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\Notificacao.cs",
-              "RelativeDocumentMoniker": "Notifications\\Notificacao.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\Notificacao.cs",
-              "RelativeToolTip": "Notifications\\Notificacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:41:33.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoNotificacao.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\TipoNotificacao.cs",
-              "RelativeDocumentMoniker": "Notifications\\TipoNotificacao.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Notifications\\TipoNotificacao.cs",
-              "RelativeToolTip": "Notifications\\TipoNotificacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:40:15.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TarefaController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
-              "RelativeToolTip": "Controllers\\TarefaController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:14:50.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

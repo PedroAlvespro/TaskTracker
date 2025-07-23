@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj": {}
+    "c:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj": {
+    "c:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
+        "projectUniqueName": "c:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
         "projectName": "TaskTracker",
-        "projectPath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
+        "projectPath": "c:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\obj\\",
+        "outputPath": "c:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

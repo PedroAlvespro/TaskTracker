@@ -52,7 +52,15 @@ namespace TaskTracker.Controllers
         [HttpPut]
         public async Task<IActionResult> AlterarTarefa(int id, TarefaDTO dto)
         {
-
+            try
+            {
+                var update = await _service.Update(id, dto);
+                return Ok(update);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
     }
 }

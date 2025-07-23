@@ -24,17 +24,10 @@ namespace TaskTracker.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<Tarefa> GetById(int id)
+        public async Task<Usuarios> GetById(int id)
         {
-            try
-            {
-                var identificador = _context.Usuarios.FirstOrDefaultAsync(c => c.Id == id);
-                return identificador;
-            }
-            catch (DbUpdateException ex)
-            {
-                throw new Exception("Erro ao salvar no banco: " + ex.InnerException?.Message);
-            }
+                var identificatorUser =  await _context.Usuarios.FindAsync(id);
+                return identificatorUser;  
         }
 
         public async Task Update(Usuarios usuario)

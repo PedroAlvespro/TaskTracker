@@ -15,6 +15,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<ITarefa, TarefaRepository>();
 builder.Services.AddScoped<TarefaService>();
+builder.Services.AddScoped<IUsuario, UsuarioRepository>();
+builder.Services.AddScoped<TarefaService>();
 
 
 builder.Services.AddEndpointsApiExplorer();

@@ -21,6 +21,7 @@ namespace TaskTracker.Services
                 Descricao = dto.Descricao,
                 DataCriacao = DateTime.Now,
                 //DataConclusao = dto.DataConclusao,
+                Tipo = dto.Tipo,
                 Concluida = false
             };
             await _tarefaRepository.Create(novaTarefa);
@@ -35,7 +36,7 @@ namespace TaskTracker.Services
             tarefa.Nome = dto.Nome;
             tarefa.Descricao = dto.Descricao;
             tarefa.DataConclusao = DateTime.Now;
-
+           
             await _tarefaRepository.Update(tarefa);
 
             return new TarefaResponseDTO

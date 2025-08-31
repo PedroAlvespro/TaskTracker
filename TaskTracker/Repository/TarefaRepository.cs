@@ -31,6 +31,13 @@ namespace TaskTracker.Repository
             return await _context.Tarefa.ToListAsync();
         }
 
+        public async Task<IEnumerable<Tarefa>> GetByDateAsync(DateTime date)
+        {
+            return await _context.Tarefa.
+                Where(t => t.DataConclusao.Date == date.Date).
+                ToListAsync();
+        }
+
         public async Task<Tarefa> GetById(int id)
         {
             var identificator = await _context.Tarefa.FindAsync(id);

@@ -24,10 +24,16 @@ namespace TaskTracker.Repository
             await _context.SaveChangesAsync();
         }
 
+        public async Task<Usuarios> GetByEmail(string email)
+        {
+            var emailNormalizado = email.Trim().ToLower();
+            return await _context.Usuarios.FirstOrDefaultAsync(x => x.Email.ToLower() == emailNormalizado);
+        }
+
         public async Task<Usuarios> GetById(int id)
         {
-                var identificatorUser =  await _context.Usuarios.FindAsync(id);
-                return identificatorUser;  
+             var identificatorUser =  await _context.Usuarios.FindAsync(id);
+             return identificatorUser;  
         }
 
         public async Task Update(Usuarios usuario)
@@ -35,5 +41,6 @@ namespace TaskTracker.Repository
             _context.Usuarios.Update(usuario);
             await _context.SaveChangesAsync();
         }
+        
     }
 }

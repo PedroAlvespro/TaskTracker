@@ -1,6 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.JSInterop.Infrastructure;
+using Org.BouncyCastle.Crypto.Generators;
+using System.IdentityModel.Tokens.Jwt;
 using TaskTracker.Data;
 using TaskTracker.DTOS;
+using TaskTracker.Helpers;
 using TaskTracker.Models;
 using TaskTracker.Repository;
 using TaskTracker.Repository.Interfaces;
@@ -16,6 +20,19 @@ namespace TaskTracker.Services
         {
             _usuarioRepository = usuarioRepository;
             _configuration = configuration;
+        }
+
+        public async Task<string> Authenticate(LoginDTO dto)
+        {
+            var user = await _usuarioRepository.GetByEmail(dto.Email);
+
+            if (user == null || dto.Password != user.Senha)
+            {
+                throw new Exception("Credenciais inválidas");
+            }
+
+            var token = JwtHelper.GenerateToken(user, _configuration);
+            return token;
         }
 
         public async Task<ResponseUserDTO> CreateUser(CreateUserDTO dto)
@@ -35,6 +52,8 @@ namespace TaskTracker.Services
                 Email = dto.Email
             };
         }
+
+
 
 
     }

@@ -8,5 +8,6 @@ namespace TaskTracker.Repository.Interfaces
         public Task Update(Usuarios usuario);
         public Task Delete(Usuarios usuario);
         public Task<Usuarios> GetById(int id);
+        public Task<Usuarios> GetByEmail(string email);
     }
 }

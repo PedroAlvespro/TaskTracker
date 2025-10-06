@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
 using TaskTracker.Data;
 using TaskTracker.DTOS;
@@ -7,6 +8,7 @@ using TaskTracker.Services;
 namespace TaskTracker.Controllers
 {
     [Route("[controller]")]
+    [Authorize]
     [ApiController]
     public class TarefaController : ControllerBase
     {

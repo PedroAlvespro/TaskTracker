@@ -353,3 +353,4 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.pdb
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.genruntimeconfig.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\ref\TaskTracker.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

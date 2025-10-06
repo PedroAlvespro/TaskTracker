@@ -44,6 +44,14 @@ namespace TaskTracker.Repository
             return identificator;
         }
 
+        public async Task<IEnumerable<Tarefa>> GetByUsuarioIdAsync(int usuarioId)
+        {
+            return await _context.Tarefa
+                .Where(t => t.UsuarioId == usuarioId)
+                .Include(t => t.Usuario)
+                .ToListAsync();
+        }
+
         public async Task Update(Tarefa tarefa)
         {
             _context.Tarefa.Update(tarefa);

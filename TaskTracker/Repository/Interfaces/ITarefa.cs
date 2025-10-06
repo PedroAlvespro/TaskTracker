@@ -10,6 +10,9 @@ namespace TaskTracker.Repository.Interfaces
         public Task<List<Tarefa>> GetAll();
         public Task<Tarefa> GetById(int id);
         public Task<IEnumerable<Tarefa>> GetByDateAsync(DateTime date);
+        //public Task VincularTarefa(int idusuario, int idtarefa);
+
+        Task<IEnumerable<Tarefa>> GetByUsuarioIdAsync(int usuarioId);
 
 
     }

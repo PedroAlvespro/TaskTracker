@@ -16,9 +16,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-
-
-// Autenticação JWT
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -39,21 +36,18 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
 builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<ITarefa, TarefaRepository>();
-builder.Services.AddScoped<TarefaService>();
 builder.Services.AddScoped<IUsuario, UsuarioRepository>();
-builder.Services.AddScoped<TarefaService>();
 
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<TarefaService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
 var app = builder.Build();
-
 
 if (app.Environment.IsDevelopment())
 {
@@ -63,6 +57,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

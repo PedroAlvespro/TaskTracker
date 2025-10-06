@@ -1,5 +1,6 @@
 ﻿using TaskTracker.DTOS;
 using TaskTracker.Models;
+using TaskTracker.Repository;
 using TaskTracker.Repository.Interfaces;
 
 namespace TaskTracker.Services
@@ -22,7 +23,8 @@ namespace TaskTracker.Services
                 DataCriacao = DateTime.Now,
                 //DataConclusao = dto.DataConclusao,
                 Tipo = dto.Tipo,
-                Concluida = false
+                Concluida = false,
+                UsuarioId = dto.UsuarioId
             };
             await _tarefaRepository.Create(novaTarefa);
             return novaTarefa;
@@ -62,5 +64,7 @@ namespace TaskTracker.Services
             var tarefas = await _tarefaRepository.GetAll() ?? new List<Tarefa>();
             return tarefas;
         }
+
+
     }
 }

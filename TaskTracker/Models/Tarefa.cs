@@ -11,6 +11,11 @@
         public bool Concluida { get; set; }
         public bool Urgente { get; set; }
         public bool Revisada { get; set; }
+
+
+        // relacionamento com o usuário:
+        public int UsuarioId { get; set; }
+        public Usuarios Usuario { get; set; }
    
     }
 }

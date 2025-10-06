@@ -7,5 +7,8 @@
         public string Email { get; set; }
         public string Senha { get; set; }
 
+        //relacionamento com tarefa: 
+        public ICollection<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
+
     }
 }

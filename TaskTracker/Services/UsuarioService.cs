@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.JSInterop.Infrastructure;
 using Org.BouncyCastle.Crypto.Generators;
+using System.ComponentModel;
 using System.IdentityModel.Tokens.Jwt;
 using TaskTracker.Data;
 using TaskTracker.DTOS;
@@ -14,12 +15,14 @@ namespace TaskTracker.Services
     public class UsuarioService
     {
         private readonly IUsuario _usuarioRepository;
+        private readonly ITarefa _tarefaRepository;
         private readonly IConfiguration _configuration;
 
-        public UsuarioService(IUsuario usuarioRepository, IConfiguration configuration)
+        public UsuarioService(IUsuario usuarioRepository, IConfiguration configuration, ITarefa tarefaRepository)
         {
             _usuarioRepository = usuarioRepository;
             _configuration = configuration;
+            _tarefaRepository = tarefaRepository;
         }
 
         public async Task<string> Authenticate(LoginDTO dto)
@@ -53,8 +56,15 @@ namespace TaskTracker.Services
             };
         }
 
+        public async Task<IEnumerable<Tarefa>> ListarTarefasDoUsuario(int usuarioId)
+        {
+            var usuario = await _usuarioRepository.GetById(usuarioId);
+            if (usuario == null)
+                throw new Exception("Usuário não encontrado");
 
-
+            var tarefas = await _tarefaRepository.GetByUsuarioIdAsync(usuarioId);
+            return tarefas;
+        }
 
     }
 }

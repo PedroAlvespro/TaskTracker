@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
 using TaskTracker.Data;
 using TaskTracker.DTOS;
+using TaskTracker.Helpers;
 using TaskTracker.Services;
 
 namespace TaskTracker.Controllers
@@ -25,6 +26,7 @@ namespace TaskTracker.Controllers
         public async Task<IActionResult> CriarTarefa(TarefaDTO dto)
         {
 
+            if (DtoNullHelper.dtoVazioOuNulo(dto)) return BadRequest("A tarefa não pode ser vazia!");
             try
             {
                 var novaTarefa = await _service.Create(dto);

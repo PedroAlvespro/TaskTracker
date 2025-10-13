@@ -29,10 +29,8 @@ namespace TaskTracker.Services
         {
             var user = await _usuarioRepository.GetByEmail(dto.Email);
 
-            if (user == null || dto.Password != user.Senha)
-            {
+            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
                 throw new Exception("Credenciais inválidas");
-            }
 
             var token = JwtHelper.GenerateToken(user, _configuration);
             return token;
@@ -44,7 +42,7 @@ namespace TaskTracker.Services
             {
                 Name = dto.Name,
                 Email = dto.Email,
-                Senha = dto.Senha
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
             };
 
             await _usuarioRepository.Create(newUser);

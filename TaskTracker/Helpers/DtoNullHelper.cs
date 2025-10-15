@@ -3,7 +3,7 @@
     public class DtoNullHelper
     {
         public static bool dtoVazioOuNulo(object dto)
-        {
+        {            
             if (dto == null) return true;
             
             var propriedades = dto.GetType().GetProperties();

@@ -7,9 +7,8 @@ namespace TaskTracker.Repository.Interfaces
         public Task Create(Tarefa tarefa);
         public Task Update(Tarefa tarefa);
         public Task Delete(Tarefa tarefa);
-        public Task<List<Tarefa>> GetAll();
+        public Task<List<Tarefa>> GetAll(int usuarioId);
         public Task<Tarefa> GetById(int id);
-        
         public Task<IEnumerable<Tarefa>> GetByDateAsync(DateTime date);
         //public Task VincularTarefa(int idusuario, int idtarefa);
 

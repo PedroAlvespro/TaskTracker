@@ -40,11 +40,13 @@ namespace TaskTracker.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> BuscarTarefa()
+        public async Task<IActionResult> BuscarTarefa(int usuarioid)
         {
+
+            
             try
             {
-                var TarefaBuscada = await _service.GetAll();
+                var TarefaBuscada = await _service.ListarTarefasdoUsuario(usuarioid);
                 return Ok(TarefaBuscada);
             }
             catch (Exception ex)
@@ -66,5 +68,22 @@ namespace TaskTracker.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+
+        [HttpPut]
+        public async Task<IActionResult> TarefaConcluida(int tarefaid)
+        {
+
+            try
+            {
+                var concuilda = await _service.TarefaConcuilda(tarefaid);
+                return Ok(concuilda);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+
+        }
     }
 }
+/*[DataAnottations]*/

@@ -13,7 +13,7 @@
         public bool Revisada { get; set; }
 
 
-        // relacionamento com o usuário:
+        // relacionamento com o usuario:
         public int UsuarioId { get; set; }
         public Usuarios Usuario { get; set; }
    

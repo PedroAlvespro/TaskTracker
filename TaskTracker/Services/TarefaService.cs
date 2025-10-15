@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.JSInterop.Infrastructure;
+using System.Reflection.Metadata.Ecma335;
 using TaskTracker.DTOS;
 using TaskTracker.Models;
 using TaskTracker.Repository;
@@ -48,9 +49,26 @@ namespace TaskTracker.Services
             {
                 Id = tarefa.Id,
                 Nome = tarefa.Nome,
+                Urgente = tarefa.Urgente,
                 Descricao = tarefa.Descricao,
                 DataConclusao = tarefa.DataConclusao
             };
+        }
+
+        public async Task<List<Tarefa>> ListarTarefasdoUsuario(int usuarioid)
+        {
+           var tarefas = await _tarefaRepository.GetAll(usuarioid);
+            return tarefas.ToList();
+        }
+
+        public async Task TarefaConcuilda(int tarefaid)
+        {
+            //buscar o id da tarefa
+            var tarefa = await _tarefaRepository.GetById(tarefaid);
+
+            if (tarefa == null) throw new ArgumentException("id da tarefa nulo");
+
+            await _tarefaRepository.Delete(tarefa);
         }
 
         public async Task Delete(int id)
@@ -62,11 +80,7 @@ namespace TaskTracker.Services
 
             await _tarefaRepository.Delete(remove);
         }
-        public async Task<List<Tarefa>> GetAll()
-        {
-            var tarefas = await _tarefaRepository.GetAll() ?? new List<Tarefa>();
-            return tarefas;
-        }
+       
 
 
     }

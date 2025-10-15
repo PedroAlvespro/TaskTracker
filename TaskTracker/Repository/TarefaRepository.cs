@@ -26,9 +26,22 @@ namespace TaskTracker.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<List<Tarefa>> GetAll()
+        public async Task<List<Tarefa>> GetAll(int usuarioId)
         {
-            return await _context.Tarefa.ToListAsync();
+            try
+            {
+                GetById(usuarioId);
+            }
+            catch (Exception ex) 
+            {
+                throw new Exception("Usuario não encontrado");           
+            }
+
+            var tarefas = await _context.Tarefa.
+                Where(t => t.UsuarioId == usuarioId).ToListAsync();
+             
+            return tarefas;
+
         }
 
         public async Task<IEnumerable<Tarefa>> GetByDateAsync(DateTime date)

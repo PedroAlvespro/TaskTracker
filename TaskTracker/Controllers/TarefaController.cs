@@ -69,21 +69,20 @@ namespace TaskTracker.Controllers
             }
         }
 
-        [HttpPut]
-        public async Task<IActionResult> TarefaConcluida(int tarefaid)
+        [HttpPut("{tarefaId}/concluir")]
+        public async Task<IActionResult> TarefaConcluida(int tarefaId)
         {
-
             try
             {
-                var concuilda = await _service.TarefaConcuilda(tarefaid);
-                return Ok(concuilda);
+                var tarefaConcluida = await _service.TarefaConcluida(tarefaId);
+                    return Ok(tarefaConcluida);
             }
             catch (Exception ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
-
         }
+
     }
 }
 /*[DataAnottations]*/

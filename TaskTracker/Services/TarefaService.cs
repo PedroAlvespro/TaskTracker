@@ -61,15 +61,24 @@ namespace TaskTracker.Services
             return tarefas.ToList();
         }
 
-        public async Task TarefaConcuilda(int tarefaid)
+        public async Task<Tarefa> TarefaConcluida(int tarefaId)
         {
-            //buscar o id da tarefa
-            var tarefa = await _tarefaRepository.GetById(tarefaid);
+            // Buscar a tarefa no banco
+            var tarefa = await _tarefaRepository.GetById(tarefaId);
 
-            if (tarefa == null) throw new ArgumentException("id da tarefa nulo");
+            if (tarefa == null)
+                throw new ArgumentException("Tarefa não encontrada.");
 
-            await _tarefaRepository.Delete(tarefa);
+            // Marcar como concluída
+            tarefa.Concluida = true;
+            tarefa.DataConclusao = DateTime.Now;
+
+            // Atualizar no banco
+            await _tarefaRepository.Update(tarefa);
+
+            return tarefa;
         }
+
 
         public async Task Delete(int id)
         {

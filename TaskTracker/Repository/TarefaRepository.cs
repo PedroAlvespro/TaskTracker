@@ -16,8 +16,15 @@ namespace TaskTracker.Repository
 
         public async Task Create(Tarefa tarefa)
         {
-            _context.Tarefa.Add(tarefa);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Tarefa.Add(tarefa);
+                await _context.SaveChangesAsync();
+            } catch(DbUpdateException ex)
+            {
+                throw new Exception("Erro ao salvar no banco" +ex.InnerException?.Message);
+            }
+            
         }
 
         public async Task Delete(Tarefa tarefa)

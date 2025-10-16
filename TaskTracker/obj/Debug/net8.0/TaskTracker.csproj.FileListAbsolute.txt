@@ -346,7 +346,6 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTrac.2CCAFB19.Up2Date
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\refint\TaskTracker.dll
@@ -355,3 +354,4 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\ref\TaskTracker.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

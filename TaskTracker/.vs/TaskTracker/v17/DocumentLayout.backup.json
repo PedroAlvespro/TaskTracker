@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,48 +15,24 @@
       "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\helpers\\dtonullhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:helpers\\dtonullhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\dtos\\tarefaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:dtos\\tarefaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\repository\\interfaces\\itarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:repository\\interfaces\\itarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\tasktracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:tasktracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,67 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TarefaRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\TarefaRepository.cs*",
+              "RelativeToolTip": "Repository\\TarefaRepository.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:22:17.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarefaController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
-              "RelativeToolTip": "Controllers\\TarefaController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T20:28:17.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-15T22:16:36.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:18:50.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:18:15.503Z",
+              "WhenOpened": "2025-10-16T23:52:24.197Z",
               "EditorCaption": ""
             },
             {
@@ -153,113 +77,87 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwFMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:16:31.034Z",
+              "WhenOpened": "2025-10-16T23:44:43.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "Controllers\\TarefaController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:43:20.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Helpers\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Helpers\\JwtHelper.cs",
-              "RelativeToolTip": "Helpers\\JwtHelper.cs",
+              "Title": "TaskTracker",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
+              "RelativeDocumentMoniker": "TaskTracker.csproj",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\TaskTracker.csproj",
+              "RelativeToolTip": "TaskTracker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T23:40:31.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAArwCwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:26:20.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Models\\Usuarios.cs",
+              "RelativeToolTip": "Models\\Usuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:16:04.634Z",
+              "WhenOpened": "2025-10-16T23:25:02.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TarefaService.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\TarefaService.cs",
-              "RelativeDocumentMoniker": "Services\\TarefaService.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Services\\TarefaService.cs",
-              "RelativeToolTip": "Services\\TarefaService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAWwD8AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
+              "RelativeToolTip": "DTOS\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T21:53:34.19Z",
+              "WhenOpened": "2025-10-16T23:24:56.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-15T22:17:03.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DtoNullHelper.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Helpers\\DtoNullHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\DtoNullHelper.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Helpers\\DtoNullHelper.cs",
-              "RelativeToolTip": "Helpers\\DtoNullHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:05:45.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TarefaResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\TarefaResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOS\\TarefaResponseDTO.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\TarefaResponseDTO.cs",
-              "RelativeToolTip": "DTOS\\TarefaResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T21:54:37.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ITarefa.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\Interfaces\\ITarefa.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\ITarefa.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\Interfaces\\ITarefa.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\ITarefa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T17:57:24.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T17:56:37.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TarefaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\TarefaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\TarefaRepository.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\Repository\\TarefaRepository.cs",
-              "RelativeToolTip": "Repository\\TarefaRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T17:56:30.78Z",
+              "WhenOpened": "2025-10-16T23:21:43.938Z",
               "EditorCaption": ""
             }
           ]

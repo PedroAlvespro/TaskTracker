@@ -17,6 +17,11 @@ namespace TaskTracker.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            /*
+             * criando um relacionamento de tarefa com usuário, via forengekey usuarioid que é a conexão
+               de tarefa com a tabela de usuário, logo, toda tarefa contém um usuário e uma chave para usuário.
+             */
+
             modelBuilder.Entity<Tarefa>()
                 .HasOne(t => t.Usuario)
                 .WithMany(u => u.Tarefas)

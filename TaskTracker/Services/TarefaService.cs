@@ -16,8 +16,7 @@ namespace TaskTracker.Services
         {
             _tarefaRepository = tarefaRepository;
         }
-
-        public async Task<Tarefa> Create(TarefaDTO dto)
+        public async Task<Tarefa> Create(TarefaDTO dto, int usuarioId)
         {
            
             var novaTarefa = new Tarefa
@@ -25,15 +24,13 @@ namespace TaskTracker.Services
                 Nome = dto.Nome,
                 Descricao = dto.Descricao,
                 DataCriacao = DateTime.Now,
-                //DataConclusao = dto.DataConclusao,
                 Tipo = dto.Tipo,
                 Concluida = false,
-                UsuarioId = dto.UsuarioId
+                UsuarioId = usuarioId
             };
             await _tarefaRepository.Create(novaTarefa);
             return novaTarefa;
         }
-
         public async Task<TarefaResponseDTO> Update(int id, TarefaDTO dto)
         {
             var tarefa = await _tarefaRepository.GetById(id);
@@ -54,13 +51,11 @@ namespace TaskTracker.Services
                 DataConclusao = tarefa.DataConclusao
             };
         }
-
         public async Task<List<Tarefa>> ListarTarefasdoUsuario(int usuarioid)
         {
            var tarefas = await _tarefaRepository.GetAll(usuarioid);
             return tarefas.ToList();
         }
-
         public async Task<Tarefa> TarefaConcluida(int tarefaId)
         {
             // Buscar a tarefa no banco
@@ -78,8 +73,6 @@ namespace TaskTracker.Services
 
             return tarefa;
         }
-
-
         public async Task Delete(int id)
         {
             var remove = await _tarefaRepository.GetById(id);

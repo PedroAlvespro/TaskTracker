@@ -233,10 +233,6 @@
           },
           "urgente": {
             "type": "boolean"
-          },
-          "usuarioId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

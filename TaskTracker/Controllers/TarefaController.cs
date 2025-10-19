@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
+using System.Security.Claims;
 using TaskTracker.Data;
 using TaskTracker.DTOS;
 using TaskTracker.Helpers;
@@ -29,7 +30,11 @@ namespace TaskTracker.Controllers
             if (DtoNullHelper.dtoVazioOuNulo(dto)) return BadRequest("A tarefa não pode ser vazia!");
             try
             {
-                var novaTarefa = await _service.Create(dto);
+
+                var usuarioId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+
+
+                var novaTarefa = await _service.Create(dto, usuarioId);
                 return Ok(novaTarefa);
             }
             catch (Exception ex)

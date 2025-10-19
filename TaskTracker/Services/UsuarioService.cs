@@ -24,7 +24,6 @@ namespace TaskTracker.Services
             _configuration = configuration;
             _tarefaRepository = tarefaRepository;
         }
-
         public async Task<string> Authenticate(LoginDTO dto)
         {
             var user = await _usuarioRepository.GetByEmail(dto.Email);
@@ -35,7 +34,6 @@ namespace TaskTracker.Services
             var token = JwtHelper.GenerateToken(user, _configuration);
             return token;
         }
-
         public async Task<ResponseUserDTO> CreateUser(CreateUserDTO dto)
         {
             var newUser = new Usuarios
@@ -53,7 +51,6 @@ namespace TaskTracker.Services
                 Email = dto.Email
             };
         }
-
         public async Task<IEnumerable<Tarefa>> ListarTarefasDoUsuario(int usuarioId)
         {
             var usuario = await _usuarioRepository.GetById(usuarioId);

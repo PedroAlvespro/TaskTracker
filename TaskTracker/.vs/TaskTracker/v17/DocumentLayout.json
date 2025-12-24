@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|c:\\users\\pedro\\source\\repos\\tasktracker\\tasktracker\\tasktracker\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E16DF3AD-6D13-42FF-A4AD-16E1A4AB35B7}|TaskTracker.csproj|solutionrelative:dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TarefaResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\TarefaResponseDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\TarefaResponseDTO.cs",
@@ -39,12 +43,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T22:31:53.044Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TarefaDTO.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\TarefaDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\TarefaDTO.cs",
@@ -58,28 +61,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
-              "RelativeDocumentMoniker": "DTOS\\CreateUserDTO.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
-              "RelativeToolTip": "DTOS\\CreateUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:51:06.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "DTOS\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\LoginDTO.cs",
-              "RelativeToolTip": "DTOS\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:51:02.502Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T19:03:27.483Z",
               "EditorCaption": ""
             },
             {
@@ -93,6 +83,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\CreateUserDTO.cs",
+              "RelativeToolTip": "DTOS\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:51:06.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\TaskTracker\\TaskTracker\\TaskTracker\\DTOS\\LoginDTO.cs",
+              "RelativeToolTip": "DTOS\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:51:02.502Z"
             }
           ]
         }

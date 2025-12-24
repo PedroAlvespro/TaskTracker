@@ -1,0 +1,59 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+
+## Build results
+bin/
+obj/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+# =========================
+# Configurações sensíveis
+# =========================
+
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Exemplo para versionar modelo
+!appsettings.Example.json
+
+# =========================
+# Logs e temporários
+# =========================
+
+logs/
+*.log
+
+# =========================
+# EF Core
+# =========================
+
+Migrations/*.cs
+!Migrations/*ContextModelSnapshot.cs
+
+# =========================
+# Publicações
+# =========================
+
+publish/
+wwwroot/lib/
+
+# =========================
+# Sistema operacional
+# =========================
+
+.DS_Store
+Thumbs.db

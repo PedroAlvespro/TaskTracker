@@ -8,10 +8,7 @@
         public string Tipo { get; set; }
         public DateTime DataCriacao { get; set; }
         public DateTime DataConclusao { get; set; }
-        public bool Concluida { get; set; }
-        public bool Urgente { get; set; }
-        public bool Revisada { get; set; }
-
+        public int Status { get; set; }
 
         // relacionamento com o usuario:
         public int UsuarioId { get; set; }

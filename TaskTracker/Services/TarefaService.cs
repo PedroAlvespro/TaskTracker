@@ -2,6 +2,7 @@
 using Microsoft.JSInterop.Infrastructure;
 using System.Reflection.Metadata.Ecma335;
 using TaskTracker.DTOS;
+using TaskTracker.Enums;
 using TaskTracker.Models;
 using TaskTracker.Repository;
 using TaskTracker.Repository.Interfaces;
@@ -25,7 +26,7 @@ namespace TaskTracker.Services
                 Descricao = dto.Descricao,
                 DataCriacao = DateTime.Now,
                 Tipo = dto.Tipo,
-                Concluida = false,
+                Status = (int)StatusTarefa.Pendente,
                 UsuarioId = usuarioId
             };
             await _tarefaRepository.Create(novaTarefa);
@@ -46,7 +47,7 @@ namespace TaskTracker.Services
             {
                 Id = tarefa.Id,
                 Nome = tarefa.Nome,
-                Urgente = tarefa.Urgente,
+                Status = tarefa.Status,
                 Descricao = tarefa.Descricao,
                 DataConclusao = tarefa.DataConclusao
             };
@@ -65,7 +66,7 @@ namespace TaskTracker.Services
                 throw new ArgumentException("Tarefa não encontrada.");
 
             // Marcar como concluída
-            tarefa.Concluida = true;
+            tarefa.Status = 3;
             tarefa.DataConclusao = DateTime.Now;
 
             // Atualizar no banco

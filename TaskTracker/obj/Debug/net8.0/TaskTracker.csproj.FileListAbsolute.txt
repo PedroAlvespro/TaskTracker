@@ -176,7 +176,6 @@ c:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebas
 c:\Users\pedro\source\repos\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\appsettings.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\TaskTracker.staticwebassets.endpoints.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\TaskTracker.exe
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\TaskTracker.deps.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\TaskTracker.runtimeconfig.json
@@ -330,7 +329,6 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.csproj.AssemblyReference.cache
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.AssemblyInfoInputs.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.AssemblyInfo.cs
@@ -338,14 +336,9 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.sourcelink.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\scopedcss\bundle\TaskTracker.styles.css
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTrac.2CCAFB19.Up2Date
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\TaskTracker.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\refint\TaskTracker.dll
@@ -354,4 +347,8 @@ C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\ref\TaskTracker.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets\msbuild.TaskTracker.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskTracker.props
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskTracker.props
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskTracker.props
+C:\Users\pedro\source\repos\TaskTracker\TaskTracker\TaskTracker\obj\Debug\net8.0\staticwebassets.pack.json
